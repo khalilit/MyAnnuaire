@@ -1,0 +1,20 @@
+{
+    "name": "khalilit/my-annuaire",
+    "authors": [
+        {
+            "name": "Khalil IT",
+            "email": "Khalil.br@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7.5",
+        "guzzlehttp/psr7": "^1.5",
+        "http-interop/response-sender": "^1.0",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
